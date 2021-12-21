@@ -1,24 +1,24 @@
 //sentings
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 4040;
 const host = process.env.HOST || '127.0.0.0.1';
 
 const express = require('express');
 const path = require('path');
 const app = express();
 const cors = require("cors");
-const axios = require('axios')
+//const axios = require('axios')
 
 app.use(cors({
     exposedHeaders: ['Location'],
 }));
 
-
+/*
 app.get('/', async(req, res ) => {
     const {data} = await axios('http://localhost:3000/');
     return res.json(data)
 })
-
+*/
 
 
 
