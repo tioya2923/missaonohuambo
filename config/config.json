@@ -1,0 +1,9 @@
+{
+    "MySQL": {
+        "username": "root",
+        "password": "19101989Jodu!",
+        "database": "missaohbo",
+        "host": "localhost",
+        "dialect": "mysql"
+    }
+}
